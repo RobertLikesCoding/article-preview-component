@@ -1,0 +1,67 @@
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: hsl(217, 19%, 35%)
+}
+
+p {
+  font-size: 13px;
+  color: hsl(214, 17%, 51%);
+}
+
+body {
+  background-color: hsl(210, 46%, 95%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap */
+}
+
+#card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 20px 20px 40px hsl(212, 23%, 69%);
+  height: 40%;
+  overflow: hidden;
+}
+
+.imagebox {
+
+}
+
+#drawers {
+  display: block;
+  max-width: 100%;
+}
+
+.textbox {
+  flex-direction: column;
+}
+
+.signature {
+  display: flex;
+}
+
+footer {
+  display: inline;
+}
